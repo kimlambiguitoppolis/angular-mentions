@@ -17,6 +17,7 @@ import { DemoOptionsComponent } from './demo-options/demo-options.component';
 import { DemoTemplateComponent } from './demo-template/demo-template.component';
 import { DemoTinymceComponent } from './demo-tinymce/demo-tinymce.component';
 import { TestPositionComponent } from './test-position/test-position.component';
+import { AngularEditorModule } from '@kolkov/angular-editor';
 
 @NgModule({
   imports: [
@@ -24,7 +25,8 @@ import { TestPositionComponent } from './test-position/test-position.component';
     EditorModule,
     HttpClientModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 500 }),
-    MentionModule
+    MentionModule,
+    AngularEditorModule
   ],
   declarations: [
     AppComponent,

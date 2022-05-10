@@ -361,7 +361,7 @@ export class MentionDirective implements OnChanges {
       this.searchList = componentRef.instance;
       this.searchList.itemTemplate = this.mentionListTemplate;
       componentRef.instance['itemClick'].subscribe(() => {
-        nativeElement.focus();
+        //nativeElement.focus();
         let fakeKeydown = { key: 'Enter', keyCode: KEY_ENTER, wasClick: true };
         this.keyHandler(fakeKeydown, nativeElement);
       });
