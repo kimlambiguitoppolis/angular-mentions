@@ -1,5 +1,5 @@
 {
-  "name": "@oppoliscloud/ng-oppolis-mentions",
+  "name": "ng-oppolis-mentions",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
