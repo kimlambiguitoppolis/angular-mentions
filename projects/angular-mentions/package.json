@@ -1,5 +1,5 @@
 {
-  "name": "ng-oppolis-mentions",
+  "name": "@oppoliscloud/ng-oppolis-mentions",
   "version": "1.4.0",
   "description": "Angular mentions for text fields.",
   "keywords": [
