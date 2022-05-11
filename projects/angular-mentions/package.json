@@ -1,6 +1,6 @@
 {
   "name": "ng-oppolis-mentions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A for from Dan MacFarlane's origin angular-mentions but with custom bug fixes. Angular mentions for text fields.",
   "keywords": [
     "angular",
